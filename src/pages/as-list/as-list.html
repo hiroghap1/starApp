@@ -1,0 +1,55 @@
+<!--
+  Generated template for the AsListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>天体を探す</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-card>
+     <ion-card-header>
+    探したい天体を選んでください
+  </ion-card-header>
+
+  <ion-list>
+    <button ion-item (click)="click_moon();">
+      <ion-img width="30" height="30" src="assets/img/moon.jpg" item-start></ion-img>
+      月
+    </button>
+
+    <button ion-item>
+      <ion-img width="30" height="30" src="assets/img/mercury.jpg" item-start></ion-img>
+      水星
+    </button>
+
+    <button ion-item>
+      <ion-img width="30" height="30" src="assets/img/venus.jpg" item-start></ion-img>
+      金星
+    </button>
+
+    <button ion-item>
+      <ion-img width="30" height="30" src="assets/img/mars.jpg" item-start></ion-img>
+      火星
+    </button>
+
+    <button ion-item>
+      <ion-img width="30" height="30" src="assets/img/jupiter.jpg" item-start></ion-img>
+      木星
+    </button>
+
+    <button ion-item>
+      <ion-img width="30" height="30" src="assets/img/saturn.jpg" item-start></ion-img>
+      土星
+    </button>
+
+  </ion-list>
+</ion-card>
+</ion-content>
